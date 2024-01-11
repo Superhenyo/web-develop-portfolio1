@@ -1,0 +1,186 @@
+/*CSS Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.bg-images {
+  background-image: url("./images/photo1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow-y: auto;
+}
+/* NAV BAR */
+#mainNavigation a {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 5px;
+  text-shadow: 2px 3px 4px #ff8c00;
+}
+.dropdown-menu {
+  background: #03727d;
+}
+a.dropdown-toggle {
+  color: #dfdfdf;
+}
+a.dropdown-item:hover {
+  color: #03727d;
+}
+.nav-item a {
+  color: #dfdfdf;
+}
+.nav-item a:hover {
+  color: #fff;
+}
+.nav-item {
+  min-width: 12vw;
+}
+#mainNavigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 123;
+  padding-bottom: 120px;
+  background: -moz-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+#navbarNavDropdown.collapsing .navbar-nav,
+#navbarNavDropdown.show .navbar-nav {
+  background: #037582;
+  padding: 12px;
+}
+/* END NAV BAR */
+
+/* LANDING */
+#landing h1 {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 100px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  text-shadow: 3px 3px 3px #ff8c00;
+}
+#landing h2 {
+  margin: 0;
+  padding: 0;
+  font-style: oblique;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 2px #ff8c00;
+}
+#landing p {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 2px #ff8c00;
+}
+#landing hr {
+  border: 3px dashed #5d2d00;
+  margin: 20px 0;
+}
+/* END of Landing */
+
+/* PROJECT  */
+.class-card {
+  background-color: rgba(239, 105, 15, 0.449);
+}
+
+#project hr {
+  border: 3px dashed #5d2d00;
+  margin: 20px 0;
+}
+
+#project h1 {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 100px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  text-shadow: 3px 3px 3px #ff8c00;
+}
+/* Project Ends */
+
+/* TOOLS */
+.tools h1 {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 100px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  text-shadow: 3px 3px 3px #ff8c00;
+}
+/* Tools End */
+
+/* Contanct Start */
+#contacts h2 {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  text-shadow: 3px 3px 3px #ff8c00;
+}
+/* Contact Ends */
+
+/* Modal */
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 600px;
+  height: 400px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 600px;
+  height: 400px;
+}
+.gmap_iframe {
+  width: 600px !important;
+  height: 400px !important;
+}
+/* Modal End */
+
+/* footer */
+.footer-bg {
+  background-color: rgba(239, 105, 15, 0.212);
+}
+/* End of footer */
